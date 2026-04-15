@@ -90,6 +90,7 @@ Make script executable:
 chmod +x run.sh
 ```
 
-📚 References
-llama.cpp: https://github.com/ggerganov/llama.cpp
-GGUF models: https://huggingface.co
+# 📚 References
+
+1. llama.cpp: https://github.com/ggerganov/llama.cpp
+2. GGUF models: https://huggingface.co
