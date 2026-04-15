@@ -89,3 +89,7 @@ Make script executable:
 ```bash
 chmod +x run.sh
 ```
+
+📚 References
+llama.cpp: https://github.com/ggerganov/llama.cpp
+GGUF models: https://huggingface.co
