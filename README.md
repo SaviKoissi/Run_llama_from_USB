@@ -35,3 +35,57 @@ cmake ..
 cmake --build . --config Release
 ```
 or
+or
+
+```bash
+brew install cmake
+```
+
+## 🤖 Model Download
+
+Download the Qwen model (GGUF format), for example:
+
+Qwen3 4B Thinking (quantized):
+
+👉 https://huggingface.co
+
+ (search: qwen3-4b-thinking-2507.Q4_K_M.gguf)
+
+Place the model in:
+
+```bash
+models/
+```
+
+## 🚀 Running the Model
+
+### Option 1 — Direct CLI
+
+```bash
+./build/bin/llama-cli -m models/qwen3-4b-thinking-2507.Q4_K_M.gguf
+```
+
+### Option 2 — With prompt
+
+```bash
+./build/bin/llama-cli \
+  -m models/qwen3-4b-thinking-2507.Q4_K_M.gguf \
+  -p "Hello" \
+  -n 512
+```
+
+### Option 3 — Interactive mode
+
+```bash
+./build/bin/llama-cli \
+  -m models/qwen3-4b-thinking-2507.Q4_K_M.gguf \
+  --interactive
+```
+
+▶️ Using run.sh
+
+Make script executable:
+
+```bash
+chmod +x run.sh
+```
