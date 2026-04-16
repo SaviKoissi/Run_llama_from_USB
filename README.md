@@ -93,4 +93,4 @@ chmod +x run.sh
 # 📚 References
 
 1. llama.cpp: https://github.com/ggerganov/llama.cpp
-2. GGUF models: https://huggingface.co
+2. GGUF models: https://huggingface.co [https://huggingface.co/pramodlohra/Qween3_4B_thinking_finetune/tree/main]
